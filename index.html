@@ -1,0 +1,17 @@
+
+<html>
+<head>
+	<title>IP Scraper</title>
+</head>
+<body>
+	<textarea rows="10" cols="100" id='textinput'></textarea>
+	<button style='display: block; margin-left:670px;' onclick='clearPage()'>Clear</button>
+	<p style='margin-left:335px; margin-top: 20px;'>Paste as plaintext..</p>
+	<button type='submit' style='display:block; margin-top:20px; margin-left:330px;' onclick='scrapeIPs()' onkeypress='textAreaEnter(e)'>Scrape IPs</button>
+	
+	<p style='margin-left:335px; margin-top: 20px;' id='answerTag'>Result: </p>
+	<textarea rows="10" cols="100" id='answer' disabled></textarea>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
